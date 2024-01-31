@@ -1,0 +1,142 @@
+
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-div{
+    width: 800px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.sub-div1
+{
+    width: 50%;
+    background-color: white;
+    border: 0px solid white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.sign{
+    display: flex;
+    justify-content: left;
+    margin: 15px 0;
+    margin-left: 5px;
+}
+.sign p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.sign img{
+    width: 17px;
+    height: 17px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+.sign i{
+    margin-top: 42px;
+    margin-left: 270px;
+    
+}
+.sub-div2{
+    text-align: center;
+    width: 50%;
+    border: 1px solid pink;
+    position: relative;
+    background: linear-gradient(to right,#FF0752, #FE21B8);
+    box-shadow: 2px 2px 4px rgba(246, 0, 156, 0.2);
+}
+.sign{
+    margin-left: 25px ;
+}
+.sign i{
+    position: absolute;
+}
+.sign-btn{
+    display: inline-block;
+            padding: 10px 20px;
+            background: transparent;
+            color: #fff;
+            border-color: white;
+            border-radius: 25px; 
+            cursor: pointer;
+            font-size: 15px;
+}
+.wlc{
+    margin-top: 150px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.dt-acc{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   color: #fff;
+
+}
+.check{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    margin-top: 30px;
+}
+.check label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 0, 136);
+}
+.check label input{
+    accent-color: rgb(255, 0, 136);
+}
+.check a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+    text-decoration: none;
+}
+.usr-name{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.usr-name input{
+background-color: rgb(241, 240, 240);
+    border-radius: 40px;
+    padding: 10px 160px 5px 5px;
+    border: none;
+    margin-left: 5px;
+}
+.pass{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.pass input{
+  background-color: rgb(241, 240, 240);
+    border-radius: 40px;
+    padding: 10px 160px 5px 5px;
+    border: none;
+    margin-left: 5px;
+}
+.btn{
+    margin-top: 30px;
+    display: inline-block;
+padding: 10px 150px;
+background: linear-gradient(to right,#FF0752, #FE21B8);
+border: none;
+border-radius: 40px; 
+cursor: pointer;
+font-size: 10px;
+color: #fff;
+margin-left: 20px;
+font-size: 15px;
+}
+
+
